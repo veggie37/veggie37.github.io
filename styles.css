@@ -1,0 +1,103 @@
+
+body {
+
+    background-color:#323c43fa;
+}
+
+div {
+
+    background-color: rgba(173, 180, 181, 0.908);
+    border: 1px solid black;
+    padding: 12px;
+    width: 60%;
+    margin: auto;
+}
+
+fieldset{
+
+    margin-bottom: 12px;
+}
+
+legend{
+
+    background-color: #395366;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+img {
+
+    border-radius: 50%;
+    margin-bottom: 12px;
+    margin-right: 20px;
+    float: left;
+    border-style: groove;
+}
+
+span {
+
+    font-weight: bold;
+}
+
+.habilidades {
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .habilidades legend {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .habilidades-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .habilidad {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .habilidad-nombre {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .habilidad-barra {
+    height: 20px;
+    border: 1px solid #000;
+    position: relative;
+  }
+  
+  .habilidad-llenado {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #5f7a97;
+    animation: llenado 2s ease-out;
+  }
+  
+  .html {
+    width: 50%;
+  }
+  
+  .css {
+    width: 50%;
+  }
+  
+  .js {
+    width: 30%;
+  }
+  
+  @keyframes llenado {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }

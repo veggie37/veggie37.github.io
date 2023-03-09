@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>MI CURRICULUM VITAE</title>
+
+</head>
+<body>
+  <div>
+    <img src="foto.jpg" alt="2x2" width="120" height="120">
+      <h1>Santiago Mulder</h1>
+      <p>Malvar y Pinto 674,Ciudad de Córdoba</p>
+      <p>Telefono:3512773124</p>
+    <fieldset>
+      <legend>Datos Generales</legend>
+        <ul>
+          <li><span>Fecha de Nacimiento:</span>02-12-1998</li> 
+          <li><span>Dni:</span>34276521</li>
+          <li><span>Email:</span>mail@mail.com</li>
+        </ul>
+    </fieldset>
+    
+
+    <fieldset>
+
+      <legend>Experiencia Laboral</legend>
+        <ul>
+          <li><span>Desarrolador Frontend</span></li>
+          <p>Programador Junior </p>
+          <p> Sachcos Lmtda- 2017 - Al presente</p>
+          
+        </ul>
+
+        <ul>
+          <li><span>Asistente</span> </li>
+          <p> ABC INTERNACIONAL- 2014 - 2016</p>
+          <li><span>Trainer de división de Planta</span></li>
+          <p>Auxiliar de Planta</p>
+          <p> RADIUS S.A - 2011 - 2013</p>
+          <li><span>Coordinnador de Compras</span></li>
+          <p>Control de calidad</p>
+          <p> Food Srla - 2010- 2011</p>
+          <li><span>Repositor</span></li>
+          <p>Reposición y atención al cliente</p>
+          <p> Supemercados Uno- 2009 - 2009</p> 
+        </ul>
+
+
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Formación Académica</legend>
+      <ul>
+        
+        <li>Universidad Nacional de Córdoba</li>
+        <li>Escuela Técnica del Sur</li>
+        <li>Colegio Particular Secundario</li>
+        
+      </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Formulario de Contacto</legend>
+    <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje"></textarea><br>
+
+    <input type="button" value="Enviar" onclick="enviarFormulario()">
+    </form>
+  </fieldset>
+</div>
+<div>
+<fieldset>
+<section class="habilidades">
+  <legend>Mis habilidades</legend>  
+  <div class="habilidades-contenedor">
+    <div class="habilidad">
+      <span class="habilidad-nombre">HTML %</span>
+      <div class="habilidad-barra">
+        <div class="habilidad-llenado html"></div>
+      </div>
+    </div>
+    <div class="habilidad">
+      <span class="habilidad-nombre">CSS %</span>
+      <div class="habilidad-barra">
+        <div class="habilidad-llenado css"></div>
+      </div>
+    </div>
+    <div class="habilidad">
+      <span class="habilidad-nombre">JavaScript %</span>
+      <div class="habilidad-barra">
+        <div class="habilidad-llenado js"></div>
+      </div>
+    </div>
+  </div>
+</section>
+</fieldset>
+</div>
+
+<script src="js/formulario.js"></script>
+<button onclick="cambiarColorDeFondo()">Cambiar color de fondo</button>
+
+</body>
+</html>
